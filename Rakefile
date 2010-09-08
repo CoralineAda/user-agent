@@ -5,7 +5,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new "user-agent", Agent::VERSION do |p|
+Echoe.new "bantik-user-agent", Agent::VERSION do |p|
   p.author = "TJ Holowaychuk"
   p.email = "tj@vision-media.ca"
   p.summary = "User agent parser"

@@ -49,5 +49,6 @@ describe Agent do
   test :Firefox, '3.1', :'Windows XP',  :gecko, '2009011606', 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.6pre) Gecko/2009011606 Firefox/3.1'
   test :Firefox, '3.0', :Linux,         :gecko, '2008062315', 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9) Gecko/2008062315 (Gentoo) Firefox/3.0'
   test :Firefox, '2.0', :Linux,         :gecko, '20061202',   'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.1) Gecko/20061202 Firefox/2.0'
+  test :Firefox, '3.6.8', :'OS X 10.6', :gecko, '20100722',   'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; en-US; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8 GTB7.1'
 
 end
